@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "@components": [
+        "components"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@lib/": [
+        "lib"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@store/": [
+        "store"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@config/": [
+        "config"
+      ],
+      "@config/*": [
+        "config/*"
+      ]
+    },
+    "allowJs": true,
+    "sourceMap": true,
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react",
+    "declaration": false,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2019",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

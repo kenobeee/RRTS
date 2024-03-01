@@ -1,0 +1,12 @@
+# logs
+node_modules/
+*.log
+
+# build
+dist
+
+# environment
+.DS_Store
+.idea/
+.env
+.vscode/
